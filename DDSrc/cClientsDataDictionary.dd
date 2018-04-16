@@ -13,6 +13,8 @@ Class cClientsDataDictionary is a DataDictionary
         Set Foreign_Field_Option DD_INDEXFIELD DD_NOPUT to True
         Set Foreign_Field_Option DD_DEFAULT DD_DISPLAYONLY to True
 
+        Set Key_Field_State Field Clients.Client_ID to True
+
         Set Field_Mask Field Clients.Client_PhoneNumber to "+##-##-###-####"
 
     End_Procedure
