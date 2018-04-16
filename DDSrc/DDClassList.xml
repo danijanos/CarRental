@@ -11,5 +11,16 @@
 				</DDClass>
 			</DDClasses>
 		</Table>
+		<Table>
+			<tableNumber>2</tableNumber>
+			<tableName>CarRental_System</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cCarRental_SystemDataDictionary</className>
+					<classFile>cCarRental_SystemDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
 	</Tables>
 </DataDictionaryList>

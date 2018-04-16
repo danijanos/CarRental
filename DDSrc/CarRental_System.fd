@@ -1,0 +1,3 @@
+#REPLACE FILE2 CarRental_System
+#REPLACE CarRental_System.Recnum |FN2,0
+#REPLACE CarRental_System.Client_ID |FN2,1
