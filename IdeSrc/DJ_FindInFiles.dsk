@@ -4,10 +4,10 @@ Active=0
 SubDirectories=1
 WholeWordOnly=0
 SearchWhere=0
-Location=D:\CODE\DataFlex\CarRental\IdeSrc\DJ_FindInFiles.dsk
-[D:\CODE\DataFlex\CarRental\AppSrc]
+Location=D:\CODE\DataFlex\CarRental\CarRental\IdeSrc\DJ_FindInFiles.dsk
+[D:\CODE\DataFlex\CarRental\CarRental\AppSrc]
 IsEnabled=1
-[D:\CODE\DataFlex\CarRental\DDSrc]
+[D:\CODE\DataFlex\CarRental\CarRental\DDSrc]
 IsEnabled=1
-[D:\CODE\DataFlex\CarRental\AppHtml]
+[D:\CODE\DataFlex\CarRental\CarRental\AppHtml]
 IsEnabled=1
