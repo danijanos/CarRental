@@ -1,0 +1,13 @@
+[Header]
+Mask=*.src;*.vw;*.sl;*.dg;*.rv;*.bp;*.pkg;*.wo;*.dd;*.inc;*.tpl;*.dfo;*.asp;*.asa;*.html;*.css;*.js
+Active=0
+SubDirectories=1
+WholeWordOnly=0
+SearchWhere=0
+Location=D:\CODE\DataFlex\CarRental\IdeSrc\DJ_FindInFiles.dsk
+[D:\CODE\DataFlex\CarRental\AppSrc]
+IsEnabled=1
+[D:\CODE\DataFlex\CarRental\DDSrc]
+IsEnabled=1
+[D:\CODE\DataFlex\CarRental\AppHtml]
+IsEnabled=1
