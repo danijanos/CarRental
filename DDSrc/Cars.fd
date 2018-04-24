@@ -10,3 +10,4 @@
 #REPLACE Cars.Car_LastServiceDate |FD3,8
 #REPLACE Cars.Car_Mileage |FN3,9
 #REPLACE Cars.Car_IsOccupied |FS3,10
+#REPLACE Cars.Car_Color |FS3,11

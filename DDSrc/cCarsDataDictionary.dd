@@ -10,6 +10,19 @@ Object Occupation is a DescriptionValidationTable
     End_Procedure
 End_Object
 
+Object Color is a DescriptionValidationTable
+    Procedure Fill_List
+        Forward Send Fill_List
+        Send Add_Table_Value "BLACK" ""
+        Send Add_Table_Value "WHITE" ""
+        Send Add_Table_Value "BLUE" ""
+        Send Add_Table_Value "RED" ""
+        Send Add_Table_Value "YELLOW" ""
+        Send Add_Table_Value "BROWN" ""
+        Send Add_Table_Value "GREEN" ""
+    End_Procedure
+End_Object
+
 Class cCarsDataDictionary is a DataDictionary
     
     Procedure Construct_Object
@@ -30,6 +43,8 @@ Class cCarsDataDictionary is a DataDictionary
         Set Field_Option Field Cars.Car_MotorNumber DD_CAPSLOCK to True
 
         Set Field_Value_Table Field Cars.Car_IsOccupied to Occupation
+
+        Set Field_Value_Table Field Cars.Car_Color to Color
 
     End_Procedure
 

@@ -8,3 +8,4 @@ Car_Vintage
 Car_LastServiceDate
 Car_Mileage
 Car_IsOccupied
+Car_Color
