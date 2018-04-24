@@ -22,5 +22,16 @@
 				</DDClass>
 			</DDClasses>
 		</Table>
+		<Table>
+			<tableNumber>3</tableNumber>
+			<tableName>Cars</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cCarsDataDictionary</className>
+					<classFile>cCarsDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
 	</Tables>
 </DataDictionaryList>
