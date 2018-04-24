@@ -1,0 +1,7 @@
+Client_ID
+Client_FirstName
+Client_LastName
+Client_TaxNumber
+Client_Address
+Client_PhoneNumber
+Client_BankAccountNumber

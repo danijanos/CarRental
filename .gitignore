@@ -1,2 +1,22 @@
-# Executables
-*.exe
+# Projects
+programs/*.exe
+programs/*.dbg
+programs/*.exe.manifest
+programs/webapp.log
+appsrc/*.dep
+appsrc/*.fld
+appsrc/*.pbg
+appsrc/*.pdp
+appsrc/*.pkd
+appsrc/*.prp
+appsrc/*.err
+data/*.cch
+ddsrc/*.bak
+idesrc/studiometadata.mtd
+idesrc/workspace.loc
+vssver2.scc
+nppbackup
+
+# personal preference
+appsrc/*.prn
+idesrc/*.dsk
