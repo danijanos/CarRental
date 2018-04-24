@@ -23,6 +23,12 @@ Class cCarsDataDictionary is a DataDictionary
 
         Set Key_Field_State Field Cars.Car_ID to True
 
+        Set Field_Option Field Cars.Car_LicensePlateNumber DD_CAPSLOCK to True
+
+        Set Field_Option Field Cars.Car_VIN DD_CAPSLOCK to True
+
+        Set Field_Option Field Cars.Car_MotorNumber DD_CAPSLOCK to True
+
         Set Field_Value_Table Field Cars.Car_IsOccupied to Occupation
 
     End_Procedure
