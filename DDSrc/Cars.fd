@@ -1,0 +1,12 @@
+#REPLACE FILE3 Cars
+#REPLACE Cars.Recnum |FN3,0
+#REPLACE Cars.Car_ID |FN3,1
+#REPLACE Cars.Car_LicensePlateNumber |FS3,2
+#REPLACE Cars.Car_VIN |FS3,3
+#REPLACE Cars.Car_MotorNumber |FS3,4
+#REPLACE Cars.Car_Brand |FS3,5
+#REPLACE Cars.Car_Type |FS3,6
+#REPLACE Cars.Car_Vintage |FS3,7
+#REPLACE Cars.Car_LastServiceDate |FD3,8
+#REPLACE Cars.Car_Mileage |FN3,9
+#REPLACE Cars.Car_IsOccupied |FS3,10
