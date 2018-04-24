@@ -2,6 +2,14 @@ Use DataDict.pkg
 
 Open Cars
 
+Object Occupation is a DescriptionValidationTable
+    Procedure Fill_List
+        Forward Send Fill_List
+        Send Add_Table_Value "True" ""
+        Send Add_Table_Value "False" ""
+    End_Procedure
+End_Object
+
 Class cCarsDataDictionary is a DataDictionary
     
     Procedure Construct_Object
@@ -14,6 +22,8 @@ Class cCarsDataDictionary is a DataDictionary
         Set Foreign_Field_Option DD_DEFAULT DD_DISPLAYONLY to True
 
         Set Key_Field_State Field Cars.Car_ID to True
+
+        Set Field_Value_Table Field Cars.Car_IsOccupied to Occupation
 
     End_Procedure
 
