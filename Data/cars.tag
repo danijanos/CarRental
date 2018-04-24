@@ -1,0 +1,11 @@
+Car_ID
+Car_LicensePlateNumber
+Car_VIN
+Car_MotorNumber
+Car_Brand
+Car_Type
+Car_Vintage
+Car_LastServiceDate
+Car_Mileage
+Car_IsOccupied
+Car_Color
