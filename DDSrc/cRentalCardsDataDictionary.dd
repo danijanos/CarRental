@@ -1,0 +1,54 @@
+Use DataDict.pkg
+
+Open RentalCards
+Open CarRental_System
+Open Clients
+Open Cars
+
+Class cRentalCardsDataDictionary is a DataDictionary
+    
+    Procedure Construct_Object
+        Forward Send Construct_Object
+        Set Main_File to RentalCards.File_Number
+
+        Set Add_Client_File to Cars.File_Number
+
+        Set Add_Server_File to Clients.File_Number
+
+        Set Add_System_File to CarRental_System.File_Number DD_Lock_On_All
+
+        Set Foreign_Field_Option DD_KEYFIELD DD_NOPUT to True
+        Set Foreign_Field_Option DD_KEYFIELD DD_FINDREQ to True
+        Set Foreign_Field_Option DD_INDEXFIELD DD_NOPUT to True
+        Set Foreign_Field_Option DD_DEFAULT DD_DISPLAYONLY to True
+
+        Set Key_Field_State Field RentalCards.Card_ID to True
+        Set Field_Option Field RentalCards.Card_ID DD_AUTOFIND to True
+        Set Field_Auto_Increment Field RentalCards.Card_ID to File_Field CarRental_System.Card_ID
+
+        Set Key_Field_State Field RentalCards.Client_ID to True
+
+        Set Key_Field_State Field RentalCards.Car_ID to True
+
+        Set Field_Option Field RentalCards.Card_RecordDate DD_REQUIRED to True
+        Set Field_Value_Range Field RentalCards.Card_RecordDate to 60/01/20 71/31/20
+
+        Set Field_Option Field RentalCards.Card_StartOfRentDate DD_REQUIRED to True
+
+        Set Field_Option Field RentalCards.Card_EndOfRentDate DD_REQUIRED to True
+
+        Set Field_Option Field RentalCards.Card_MileageBefore DD_REQUIRED to True
+
+        Set Field_Option Field RentalCards.Card_MileageAfter DD_REQUIRED to True
+
+        Set Field_Option Field RentalCards.Card_StatusBefore DD_REQUIRED to True
+
+        Set Field_Option Field RentalCards.Card_StatusAfter DD_REQUIRED to True
+
+        Set Field_Option Field RentalCards.Card_RefilledQuantity DD_REQUIRED to True
+
+        Set Field_Option Field RentalCards.Card_UnitPrice DD_REQUIRED to True
+
+    End_Procedure
+
+End_Class

@@ -1,6 +1,8 @@
 Use DataDict.pkg
 
 Open Cars
+Open CarRental_System
+Open RentalCards
 
 Object Occupation is a DescriptionValidationTable
     Procedure Fill_List
@@ -29,12 +31,18 @@ Class cCarsDataDictionary is a DataDictionary
         Forward Send Construct_Object
         Set Main_File to Cars.File_Number
 
+        Set Add_Server_File to RentalCards.File_Number
+
+        Set Add_System_File to CarRental_System.File_Number DD_Lock_On_All
+
         Set Foreign_Field_Option DD_KEYFIELD DD_NOPUT to True
         Set Foreign_Field_Option DD_KEYFIELD DD_FINDREQ to True
         Set Foreign_Field_Option DD_INDEXFIELD DD_NOPUT to True
         Set Foreign_Field_Option DD_DEFAULT DD_DISPLAYONLY to True
 
         Set Key_Field_State Field Cars.Car_ID to True
+        Set Field_Option Field Cars.Car_ID DD_AUTOFIND to True
+        Set Field_Auto_Increment Field Cars.Car_ID to File_Field CarRental_System.Car_ID
 
         Set Field_Option Field Cars.Car_LicensePlateNumber DD_CAPSLOCK to True
 

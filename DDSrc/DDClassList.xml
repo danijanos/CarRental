@@ -33,5 +33,16 @@
 				</DDClass>
 			</DDClasses>
 		</Table>
+		<Table>
+			<tableNumber>4</tableNumber>
+			<tableName>RentalCards</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cRentalCardsDataDictionary</className>
+					<classFile>cRentalCardsDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
 	</Tables>
 </DataDictionaryList>
