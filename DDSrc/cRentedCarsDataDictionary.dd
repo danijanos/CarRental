@@ -21,6 +21,18 @@ Class cRentedCarsDataDictionary is a DataDictionary
         Set Foreign_Field_Option DD_INDEXFIELD DD_NOPUT to True
         Set Foreign_Field_Option DD_DEFAULT DD_DISPLAYONLY to True
 
+        Set Key_Field_State Field RentedCars.RentedCards_ID to True
+
+        Set Key_Field_State Field RentedCars.Car_ID to True
+
+        Set Key_Field_State Field RentedCars.Fueling_ID to True
+
+        Set Key_Field_State Field RentedCars.StartOfRentDate to True
+
+        Set Key_Field_State Field RentedCars.MileageBefore to True
+
+        Set Key_Field_State Field RentedCars.StatusBefore to True
+
     End_Procedure
 
 End_Class
