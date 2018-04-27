@@ -28,26 +28,7 @@ Class cRentalCardsDataDictionary is a DataDictionary
 
         Set Key_Field_State Field RentalCards.Client_ID to True
 
-        Set Key_Field_State Field RentalCards.Car_ID to True
-
-        Set Field_Option Field RentalCards.Card_RecordDate DD_REQUIRED to True
-        Set Field_Value_Range Field RentalCards.Card_RecordDate to 60/01/20 71/31/20
-
-        Set Field_Option Field RentalCards.Card_StartOfRentDate DD_REQUIRED to True
-
-        Set Field_Option Field RentalCards.Card_EndOfRentDate DD_REQUIRED to True
-
-        Set Field_Option Field RentalCards.Card_MileageBefore DD_REQUIRED to True
-
-        Set Field_Option Field RentalCards.Card_MileageAfter DD_REQUIRED to True
-
-        Set Field_Option Field RentalCards.Card_StatusBefore DD_REQUIRED to True
-
-        Set Field_Option Field RentalCards.Card_StatusAfter DD_REQUIRED to True
-
-        Set Field_Option Field RentalCards.Card_RefilledQuantity DD_REQUIRED to True
-
-        Set Field_Option Field RentalCards.Card_UnitPrice DD_REQUIRED to True
+        Set Key_Field_State Field RentalCards.RendtedCars_ID to True
 
     End_Procedure
 

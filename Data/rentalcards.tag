@@ -1,12 +1,5 @@
 Card_ID
 Client_ID
-Car_ID
-Card_RecordDate
-Card_StartOfRentDate
-Card_EndOfRentDate
-Card_MileageBefore
-Card_MileageAfter
-Card_StatusBefore
-Card_StatusAfter
-Card_RefilledQuantity
-Card_UnitPrice
+RendtedCars_ID
+RecordDate
+ResponsiblePerson

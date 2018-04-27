@@ -44,5 +44,16 @@
 				</DDClass>
 			</DDClasses>
 		</Table>
+		<Table>
+			<tableNumber>5</tableNumber>
+			<tableName>RentedCars</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cRentedCarsDataDictionary</className>
+					<classFile>cRentedCarsDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
 	</Tables>
 </DataDictionaryList>

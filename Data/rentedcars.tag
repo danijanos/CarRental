@@ -1,0 +1,12 @@
+RentedCars_ID
+RentalCards_ID
+Car_ID
+StartOfRentDate
+EndOfRentDate
+MileageBefore
+MileageAfter
+StatusBefore
+StatusAfter
+RefilledQuantity
+UnitPrice
+Currency

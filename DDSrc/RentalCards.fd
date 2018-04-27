@@ -2,13 +2,6 @@
 #REPLACE RentalCards.Recnum |FN4,0
 #REPLACE RentalCards.Card_ID |FN4,1
 #REPLACE RentalCards.Client_ID |FN4,2
-#REPLACE RentalCards.Car_ID |FN4,3
-#REPLACE RentalCards.Card_RecordDate |FD4,4
-#REPLACE RentalCards.Card_StartOfRentDate |FD4,5
-#REPLACE RentalCards.Card_EndOfRentDate |FD4,6
-#REPLACE RentalCards.Card_MileageBefore |FN4,7
-#REPLACE RentalCards.Card_MileageAfter |FN4,8
-#REPLACE RentalCards.Card_StatusBefore |FS4,9
-#REPLACE RentalCards.Card_StatusAfter |FS4,10
-#REPLACE RentalCards.Card_RefilledQuantity |FN4,11
-#REPLACE RentalCards.Card_UnitPrice |FN4,12
+#REPLACE RentalCards.RendtedCars_ID |FN4,3
+#REPLACE RentalCards.RecordDate |FD4,4
+#REPLACE RentalCards.ResponsiblePerson |FS4,5
