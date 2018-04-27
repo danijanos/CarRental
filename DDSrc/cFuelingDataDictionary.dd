@@ -3,6 +3,16 @@ Use DataDict.pkg
 Open Fueling
 Open RentedCars
 
+Object Currencies is a DescriptionValidationTable
+    Procedure Fill_List
+        Forward Send Fill_List
+        Send Add_Table_Value "HUF" "Hungarian Forint"
+        Send Add_Table_Value "EUR" "Euro"
+        Send Add_Table_Value "USD" "US Dollar"
+        Send Add_Table_Value "GBP" "British Pound"
+    End_Procedure
+End_Object
+
 Class cFuelingDataDictionary is a DataDictionary
     
     Procedure Construct_Object
@@ -23,6 +33,7 @@ Class cFuelingDataDictionary is a DataDictionary
         Set Key_Field_State Field Fueling.UnitPrice to True
 
         Set Key_Field_State Field Fueling.Currency to True
+        Set Field_Value_Table Field Fueling.Currency to Currencies
 
     End_Procedure
 
