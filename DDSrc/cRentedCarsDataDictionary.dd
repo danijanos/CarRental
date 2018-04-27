@@ -4,12 +4,15 @@ Open RentedCars
 Open RentalCards
 Open Fueling
 Open Cars
+Open CarRental_System
 
 Class cRentedCarsDataDictionary is a DataDictionary
     
     Procedure Construct_Object
         Forward Send Construct_Object
         Set Main_File to RentedCars.File_Number
+
+        Set Add_System_File to CarRental_System.File_Number DD_Lock_On_All
 
         Set Add_Server_File to Fueling.File_Number
         Set Add_Server_File to Cars.File_Number
@@ -22,6 +25,7 @@ Class cRentedCarsDataDictionary is a DataDictionary
         Set Foreign_Field_Option DD_DEFAULT DD_DISPLAYONLY to True
 
         Set Key_Field_State Field RentedCars.RentedCards_ID to True
+        Set Field_Auto_Increment Field RentedCars.RentedCards_ID to File_Field CarRental_System.RentedCars_ID
 
         Set Key_Field_State Field RentedCars.Car_ID to True
 
