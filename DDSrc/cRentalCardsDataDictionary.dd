@@ -12,8 +12,6 @@ Class cRentalCardsDataDictionary is a DataDictionary
         Forward Send Construct_Object
         Set Main_File to RentalCards.File_Number
 
-        Set Add_Client_File to Cars.File_Number
-
         Set Add_Server_File to Clients.File_Number
         Set Add_Server_File to RentedCars.File_Number
 
@@ -30,11 +28,10 @@ Class cRentalCardsDataDictionary is a DataDictionary
 
         Set Key_Field_State Field RentalCards.Client_ID to True
 
-        Set Key_Field_State Field RentalCards.RendtedCars_ID to True
+        Set Key_Field_State Field RentalCards.RentedCars_ID to True
 
-        Set Key_Field_State Field RentalCards.RecordDate to True
-
-        Set Key_Field_State Field RentalCards.ResponsiblePerson to True
+        Set Field_Option Field RentalCards.RecordDate DD_REQUIRED to True
+        Set Field_Option Field RentalCards.ResponsiblePerson DD_REQUIRED to True
 
     End_Procedure
 

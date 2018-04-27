@@ -1,9 +1,9 @@
 #REPLACE FILE1 Clients
 #REPLACE Clients.Recnum |FN1,0
 #REPLACE Clients.Client_ID |FN1,1
-#REPLACE Clients.Client_FirstName |FS1,2
-#REPLACE Clients.Client_LastName |FS1,3
-#REPLACE Clients.Client_TaxNumber |FS1,4
-#REPLACE Clients.Client_Address |FS1,5
-#REPLACE Clients.Client_PhoneNumber |FS1,6
-#REPLACE Clients.Client_BankAccountNumber |FS1,7
+#REPLACE Clients.FirstName |FS1,2
+#REPLACE Clients.LastName |FS1,3
+#REPLACE Clients.TaxNumber |FS1,4
+#REPLACE Clients.Address |FS1,5
+#REPLACE Clients.PhoneNumber |FS1,6
+#REPLACE Clients.BankAccountNumber |FS1,7

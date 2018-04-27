@@ -31,13 +31,13 @@ Class cFuelingDataDictionary is a DataDictionary
 
         Set Key_Field_State Field Fueling.Fueling_ID to True
         Set Field_Auto_Increment Field Fueling.Fueling_ID to File_Field CarRental_System.Fueling_ID
+        Set Field_Option Field Fueling.Fueling_ID DD_REQUIRED to True
 
-        Set Key_Field_State Field Fueling.RefilledQuantity to True
+        Set Field_Option Field Fueling.RefilledQuantity DD_REQUIRED to True
 
-        Set Key_Field_State Field Fueling.UnitPrice to True
-
-        Set Key_Field_State Field Fueling.Currency to True
+        Set Field_Option Field Fueling.UnitPrice DD_REQUIRED to True
         Set Field_Value_Table Field Fueling.Currency to Currencies
+        Set Field_Option Field Fueling.Currency DD_REQUIRED to True
 
     End_Procedure
 

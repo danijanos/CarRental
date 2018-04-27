@@ -1,4 +1,4 @@
-RentedCards_ID
+RentedCars_ID
 Car_ID
 Fueling_ID
 StartOfRentDate

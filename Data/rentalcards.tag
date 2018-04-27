@@ -1,5 +1,5 @@
 Card_ID
 Client_ID
-RendtedCars_ID
+RentedCars_ID
 RecordDate
 ResponsiblePerson

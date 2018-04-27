@@ -2,6 +2,6 @@
 #REPLACE RentalCards.Recnum |FN4,0
 #REPLACE RentalCards.Card_ID |FN4,1
 #REPLACE RentalCards.Client_ID |FN4,2
-#REPLACE RentalCards.RendtedCars_ID |FN4,3
+#REPLACE RentalCards.RentedCars_ID |FN4,3
 #REPLACE RentalCards.RecordDate |FD4,4
 #REPLACE RentalCards.ResponsiblePerson |FS4,5
