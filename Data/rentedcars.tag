@@ -7,4 +7,3 @@ MileageBefore
 MileageAfter
 StatusBefore
 StatusAfter
-Currency

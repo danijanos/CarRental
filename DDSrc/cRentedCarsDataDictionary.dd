@@ -3,6 +3,7 @@ Use DataDict.pkg
 Open RentedCars
 Open RentalCards
 Open Fueling
+Open Cars
 
 Class cRentedCarsDataDictionary is a DataDictionary
     
@@ -11,6 +12,7 @@ Class cRentedCarsDataDictionary is a DataDictionary
         Set Main_File to RentedCars.File_Number
 
         Set Add_Server_File to Fueling.File_Number
+        Set Add_Server_File to Cars.File_Number
 
         Set Add_Client_File to RentalCards.File_Number
 

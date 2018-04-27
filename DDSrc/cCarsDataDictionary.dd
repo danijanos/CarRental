@@ -3,6 +3,7 @@ Use DataDict.pkg
 Open Cars
 Open CarRental_System
 Open RentalCards
+Open RentedCars
 
 Object Occupation is a DescriptionValidationTable
     Procedure Fill_List
@@ -30,6 +31,8 @@ Class cCarsDataDictionary is a DataDictionary
     Procedure Construct_Object
         Forward Send Construct_Object
         Set Main_File to Cars.File_Number
+
+        Set Add_Client_File to RentedCars.File_Number
 
         Set Add_Server_File to RentalCards.File_Number
 
