@@ -32,6 +32,10 @@ Class cRentalCardsDataDictionary is a DataDictionary
 
         Set Key_Field_State Field RentalCards.RendtedCars_ID to True
 
+        Set Key_Field_State Field RentalCards.RecordDate to True
+
+        Set Key_Field_State Field RentalCards.ResponsiblePerson to True
+
     End_Procedure
 
 End_Class
