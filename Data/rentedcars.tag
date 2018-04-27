@@ -1,12 +1,10 @@
-RentedCars_ID
-RentalCards_ID
+RentedCards_ID
 Car_ID
+Fueling_ID
 StartOfRentDate
 EndOfRentDate
 MileageBefore
 MileageAfter
 StatusBefore
 StatusAfter
-RefilledQuantity
-UnitPrice
 Currency

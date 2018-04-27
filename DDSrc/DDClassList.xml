@@ -55,5 +55,16 @@
 				</DDClass>
 			</DDClasses>
 		</Table>
+		<Table>
+			<tableNumber>6</tableNumber>
+			<tableName>Fueling</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cFuelingDataDictionary</className>
+					<classFile>cFuelingDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
 	</Tables>
 </DataDictionaryList>

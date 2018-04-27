@@ -4,6 +4,7 @@ Open RentalCards
 Open CarRental_System
 Open Clients
 Open Cars
+Open RentedCars
 
 Class cRentalCardsDataDictionary is a DataDictionary
     
@@ -14,6 +15,7 @@ Class cRentalCardsDataDictionary is a DataDictionary
         Set Add_Client_File to Cars.File_Number
 
         Set Add_Server_File to Clients.File_Number
+        Set Add_Server_File to RentedCars.File_Number
 
         Set Add_System_File to CarRental_System.File_Number DD_Lock_On_All
 

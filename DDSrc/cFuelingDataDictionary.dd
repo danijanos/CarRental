@@ -1,18 +1,15 @@
 Use DataDict.pkg
 
-Open RentedCars
-Open RentalCards
 Open Fueling
+Open RentedCars
 
-Class cRentedCarsDataDictionary is a DataDictionary
+Class cFuelingDataDictionary is a DataDictionary
     
     Procedure Construct_Object
         Forward Send Construct_Object
-        Set Main_File to RentedCars.File_Number
+        Set Main_File to Fueling.File_Number
 
-        Set Add_Server_File to Fueling.File_Number
-
-        Set Add_Client_File to RentalCards.File_Number
+        Set Add_Client_File to RentedCars.File_Number
 
         Set Foreign_Field_Option DD_KEYFIELD DD_NOPUT to True
         Set Foreign_Field_Option DD_KEYFIELD DD_FINDREQ to True
