@@ -3,4 +3,5 @@
 #REPLACE CarRental_System.Client_ID |FN2,1
 #REPLACE CarRental_System.Car_ID |FN2,2
 #REPLACE CarRental_System.Card_ID |FN2,3
-#REPLACE CarRental_System.Fueling_ID |FN2,4
+#REPLACE CarRental_System.RentedCars_ID |FN2,4
+#REPLACE CarRental_System.Fueling_ID |FN2,5
