@@ -26,14 +26,12 @@ Class cRentedCarsDataDictionary is a DataDictionary
 
         Set Key_Field_State Field RentedCars.RentedCars_ID to True
         Set Field_Auto_Increment Field RentedCars.RentedCars_ID to File_Field CarRental_System.RentedCars_ID
-        Set Field_Option Field RentedCars.RentedCars_ID DD_REQUIRED to True
+        Set Field_Option Field RentedCars.RentedCars_ID DD_AUTOFIND to True
 
         Set Key_Field_State Field RentedCars.Car_ID to True
         Set Field_Option Field RentedCars.Car_ID DD_REQUIRED to True
 
         Set Key_Field_State Field RentedCars.Fueling_ID to True
-        Set Field_Option Field RentedCars.Fueling_ID DD_REQUIRED to True
-        Set Field_Option Field RentedCars.Fueling_ID DD_AUTOFIND to True
 
         Set Field_Option Field RentedCars.StartOfRentDate DD_REQUIRED to True
 

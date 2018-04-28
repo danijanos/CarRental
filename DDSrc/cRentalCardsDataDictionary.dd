@@ -27,8 +27,10 @@ Class cRentalCardsDataDictionary is a DataDictionary
         Set Field_Auto_Increment Field RentalCards.Card_ID to File_Field CarRental_System.Card_ID
 
         Set Key_Field_State Field RentalCards.Client_ID to True
+        Set Field_Option Field RentalCards.Client_ID DD_REQUIRED to True
 
         Set Key_Field_State Field RentalCards.RentedCars_ID to True
+        Set Field_Option Field RentalCards.RentedCars_ID DD_REQUIRED to True
 
         Set Field_Option Field RentalCards.RecordDate DD_REQUIRED to True
         Set Field_Option Field RentalCards.ResponsiblePerson DD_REQUIRED to True
