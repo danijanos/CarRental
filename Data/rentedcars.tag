@@ -1,0 +1,9 @@
+RentedCars_ID
+Car_ID
+Fueling_ID
+StartOfRentDate
+EndOfRentDate
+MileageBefore
+MileageAfter
+StatusBefore
+StatusAfter

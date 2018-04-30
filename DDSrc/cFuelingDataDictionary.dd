@@ -1,0 +1,44 @@
+Use DataDict.pkg
+
+Open Fueling
+Open RentedCars
+Open CarRental_System
+
+Object Currencies is a DescriptionValidationTable
+    Procedure Fill_List
+        Forward Send Fill_List
+        Send Add_Table_Value "HUF" "Hungarian Forint"
+        Send Add_Table_Value "EUR" "Euro"
+        Send Add_Table_Value "USD" "US Dollar"
+        Send Add_Table_Value "GBP" "British Pound"
+    End_Procedure
+End_Object
+
+Class cFuelingDataDictionary is a DataDictionary
+    
+    Procedure Construct_Object
+        Forward Send Construct_Object
+        Set Main_File to Fueling.File_Number
+
+        Set Add_System_File to CarRental_System.File_Number DD_Lock_On_All
+
+        Set Add_Client_File to RentedCars.File_Number
+
+        Set Foreign_Field_Option DD_KEYFIELD DD_NOPUT to True
+        Set Foreign_Field_Option DD_KEYFIELD DD_FINDREQ to True
+        Set Foreign_Field_Option DD_INDEXFIELD DD_NOPUT to True
+        Set Foreign_Field_Option DD_DEFAULT DD_DISPLAYONLY to True
+
+        Set Key_Field_State Field Fueling.Fueling_ID to True
+        Set Field_Auto_Increment Field Fueling.Fueling_ID to File_Field CarRental_System.Fueling_ID
+        Set Field_Option Field Fueling.Fueling_ID DD_AUTOFIND to True
+
+        Set Field_Option Field Fueling.RefilledQuantity DD_REQUIRED to True
+
+        Set Field_Option Field Fueling.UnitPrice DD_REQUIRED to True
+        Set Field_Value_Table Field Fueling.Currency to Currencies
+        Set Field_Option Field Fueling.Currency DD_REQUIRED to True
+
+    End_Procedure
+
+End_Class

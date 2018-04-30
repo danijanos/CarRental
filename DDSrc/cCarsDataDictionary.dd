@@ -1,6 +1,9 @@
 Use DataDict.pkg
 
 Open Cars
+Open CarRental_System
+Open RentalCards
+Open RentedCars
 
 Object Occupation is a DescriptionValidationTable
     Procedure Fill_List
@@ -10,24 +13,15 @@ Object Occupation is a DescriptionValidationTable
     End_Procedure
 End_Object
 
-Object Color is a DescriptionValidationTable
-    Procedure Fill_List
-        Forward Send Fill_List
-        Send Add_Table_Value "BLACK" ""
-        Send Add_Table_Value "WHITE" ""
-        Send Add_Table_Value "BLUE" ""
-        Send Add_Table_Value "RED" ""
-        Send Add_Table_Value "YELLOW" ""
-        Send Add_Table_Value "BROWN" ""
-        Send Add_Table_Value "GREEN" ""
-    End_Procedure
-End_Object
-
 Class cCarsDataDictionary is a DataDictionary
     
     Procedure Construct_Object
         Forward Send Construct_Object
         Set Main_File to Cars.File_Number
+
+        Set Add_Client_File to RentedCars.File_Number
+
+        Set Add_System_File to CarRental_System.File_Number DD_Lock_On_All
 
         Set Foreign_Field_Option DD_KEYFIELD DD_NOPUT to True
         Set Foreign_Field_Option DD_KEYFIELD DD_FINDREQ to True
@@ -35,16 +29,16 @@ Class cCarsDataDictionary is a DataDictionary
         Set Foreign_Field_Option DD_DEFAULT DD_DISPLAYONLY to True
 
         Set Key_Field_State Field Cars.Car_ID to True
+        Set Field_Option Field Cars.Car_ID DD_AUTOFIND to True
+        Set Field_Auto_Increment Field Cars.Car_ID to File_Field CarRental_System.Car_ID
 
-        Set Field_Option Field Cars.Car_LicensePlateNumber DD_CAPSLOCK to True
+        Set Field_Option Field Cars.LicensePlateNumber DD_CAPSLOCK to True
 
-        Set Field_Option Field Cars.Car_VIN DD_CAPSLOCK to True
+        Set Field_Option Field Cars.VIN DD_CAPSLOCK to True
 
-        Set Field_Option Field Cars.Car_MotorNumber DD_CAPSLOCK to True
+        Set Field_Option Field Cars.MotorNumber DD_CAPSLOCK to True
 
-        Set Field_Value_Table Field Cars.Car_IsOccupied to Occupation
-
-        Set Field_Value_Table Field Cars.Car_Color to Color
+        Set Field_Value_Table Field Cars.IsOccupied to Occupation
 
     End_Procedure
 

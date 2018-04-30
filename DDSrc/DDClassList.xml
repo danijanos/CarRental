@@ -33,5 +33,38 @@
 				</DDClass>
 			</DDClasses>
 		</Table>
+		<Table>
+			<tableNumber>4</tableNumber>
+			<tableName>RentalCards</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cRentalCardsDataDictionary</className>
+					<classFile>cRentalCardsDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
+		<Table>
+			<tableNumber>5</tableNumber>
+			<tableName>RentedCars</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cRentedCarsDataDictionary</className>
+					<classFile>cRentedCarsDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
+		<Table>
+			<tableNumber>6</tableNumber>
+			<tableName>Fueling</tableName>
+			<DDClasses>
+				<DDClass>
+					<className>cFuelingDataDictionary</className>
+					<classFile>cFuelingDataDictionary.dd</classFile>
+					<preferred>true</preferred>
+				</DDClass>
+			</DDClasses>
+		</Table>
 	</Tables>
 </DataDictionaryList>
