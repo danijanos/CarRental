@@ -7,3 +7,5 @@ MileageBefore
 MileageAfter
 StatusBefore
 StatusAfter
+RefuelingVolume
+UnitPrice
