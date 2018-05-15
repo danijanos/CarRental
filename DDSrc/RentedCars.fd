@@ -9,3 +9,5 @@
 #REPLACE RentedCars.MileageAfter |FN5,7
 #REPLACE RentedCars.StatusBefore |FS5,8
 #REPLACE RentedCars.StatusAfter |FS5,9
+#REPLACE RentedCars.RefuelingVolume |FN5,10
+#REPLACE RentedCars.UnitPrice |FN5,11
