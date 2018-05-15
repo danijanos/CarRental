@@ -35,12 +35,14 @@ Class cCarsDataDictionary is a DataDictionary
         Set Field_Option Field Cars.LicensePlateNumber DD_CAPSLOCK to True
 
         Set Field_Option Field Cars.VIN DD_CAPSLOCK to True
+        Set Field_Option Field Cars.VIN DD_REQUIRED to True
 
         Set Field_Option Field Cars.MotorNumber DD_CAPSLOCK to True
 
         Set Field_Mask_Type Field Cars.LastServiceDate to Mask_Date_Window
+        Set Status_Help Field Cars.LastServiceDate to "1970.01.01."
 
-        Set Field_Value_Table Field Cars.IsOccupied to Occupation
+        Set Field_Checkbox_Values Field Cars.IsOccupied to "True" "False"
 
     End_Procedure
 
