@@ -2,3 +2,7 @@
 Version=19.0
 [WorkspacePaths]
 ConfigFile=.\Programs\Config.ws
+[Projects]
+Project0=CarRental.src
+[Conditionals]
+Is$WebApp=False
