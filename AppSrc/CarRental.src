@@ -22,7 +22,7 @@ Use oEditContextMenu.pkg
 Use oDEOEditContextMenu17.pkg
 
 Object oMain is a Panel
-    Set Label to "Alkalmaz som"
+    Set Label to "CarRental"
     Set Location to 4 3
     Set Size to 300 450
 

@@ -9,7 +9,7 @@ Use cCarsDataDictionary.dd
 
 ACTIVATE_VIEW Activate_oCarEntry FOR oCarEntry
 Object oCarEntry is a dbView
-    Set Location to 5 5
+    Set Location to 49 59
     Set Size to 158 311
     Set Label to "Car Entry"
     Set Border_Style to Border_Thick
