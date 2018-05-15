@@ -22,6 +22,7 @@ Class cClientsDataDictionary is a DataDictionary
         Set Key_Field_State Field Clients.Client_ID to True
         Set Field_Auto_Increment Field Clients.Client_ID to File_Field CarRental_System.Client_ID
         Set Field_Option Field Clients.Client_ID DD_AUTOFIND to True
+        Set Field_Option Field Clients.Client_ID DD_REQUIRED to True
 
         Set Field_Mask Field Clients.PhoneNumber to "+##-##-###-####"
 
