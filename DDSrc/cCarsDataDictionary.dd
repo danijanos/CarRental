@@ -38,6 +38,8 @@ Class cCarsDataDictionary is a DataDictionary
 
         Set Field_Option Field Cars.MotorNumber DD_CAPSLOCK to True
 
+        Set Field_Mask_Type Field Cars.LastServiceDate to Mask_Date_Window
+
         Set Field_Value_Table Field Cars.IsOccupied to Occupation
 
     End_Procedure
