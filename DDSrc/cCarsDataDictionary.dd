@@ -13,6 +13,8 @@ Object Occupation is a DescriptionValidationTable
     End_Procedure
 End_Object
 
+Register_Object Cars_sl
+
 Class cCarsDataDictionary is a DataDictionary
     
     Procedure Construct_Object
@@ -31,19 +33,31 @@ Class cCarsDataDictionary is a DataDictionary
         Set Key_Field_State Field Cars.Car_ID to True
         Set Field_Option Field Cars.Car_ID DD_AUTOFIND to True
         Set Field_Auto_Increment Field Cars.Car_ID to File_Field CarRental_System.Car_ID
+        Set Field_Prompt_Object Field Cars.Car_ID to Cars_sl
 
         Set Field_Option Field Cars.LicensePlateNumber DD_CAPSLOCK to True
+        Set Field_Prompt_Object Field Cars.LicensePlateNumber to Cars_sl
 
         Set Field_Option Field Cars.VIN DD_CAPSLOCK to True
         Set Field_Option Field Cars.VIN DD_REQUIRED to True
 
         Set Field_Option Field Cars.MotorNumber DD_CAPSLOCK to True
 
+        Set Field_Prompt_Object Field Cars.Brand to Cars_sl
+
+        Set Field_Prompt_Object Field Cars.Type to Cars_sl
+
         Set Field_Mask_Type Field Cars.LastServiceDate to Mask_Date_Window
         Set Status_Help Field Cars.LastServiceDate to "1970.01.01."
 
         Set Field_Checkbox_Values Field Cars.IsOccupied to "True" "False"
+        Set Field_Class_Name Field Cars.IsOccupied to "Checkbox"
 
     End_Procedure
 
 End_Class
+
+#IFDEF Is$WebApp
+#ELSE
+Use Cars.sl
+#ENDIF
