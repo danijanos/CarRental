@@ -22,8 +22,8 @@ Use oEditContextMenu.pkg
 Use oDEOEditContextMenu17.pkg
 
 Object oMain is a Panel
-    Set Label to "Alkalmaz som"
-    Set Location to 4 3
+    Set Label to "Car Rental"
+    Set Location to 19 51
     Set Size to 300 450
 
     Object oCommandBarSystem is a cCJCommandBarSystem

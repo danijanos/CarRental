@@ -9,8 +9,8 @@ Use cCarsDataDictionary.dd
 
 ACTIVATE_VIEW Activate_oCarEntry FOR oCarEntry
 Object oCarEntry is a dbView
-    Set Location to 5 5
-    Set Size to 158 311
+    Set Location to 56 107
+    Set Size to 190 354
     Set Label to "Car Entry"
     Set Border_Style to Border_Thick
 
@@ -25,7 +25,7 @@ Object oCarEntry is a dbView
 
     Object oCarsCar_ID is a dbForm
         Entry_Item Cars.Car_ID
-        Set Size to 13 42
+        Set Size to 13 85
         Set Location to 5 75
         Set peAnchors to anTopLeftRight
         Set Label to "Car ID"
@@ -37,7 +37,7 @@ Object oCarEntry is a dbView
 
     Object oCarsLicensePlateNumber is a dbForm
         Entry_Item Cars.LicensePlateNumber
-        Set Size to 13 141
+        Set Size to 13 85
         Set Location to 20 75
         Set peAnchors to anTopLeftRight
         Set Label to "License Plate Number"
@@ -48,8 +48,8 @@ Object oCarEntry is a dbView
 
     Object oCarsVIN is a dbForm
         Entry_Item Cars.VIN
-        Set Size to 13 231
-        Set Location to 35 75
+        Set Size to 13 150
+        Set Location to 35 76
         Set peAnchors to anTopLeftRight
         Set Label to "VIN"
         Set Label_Justification_mode to jMode_right
@@ -59,7 +59,7 @@ Object oCarEntry is a dbView
 
     Object oCarsMotorNumber is a dbForm
         Entry_Item Cars.MotorNumber
-        Set Size to 13 231
+        Set Size to 13 150
         Set Location to 50 75
         Set peAnchors to anTopLeftRight
         Set Label to "Motor Number"
@@ -70,7 +70,7 @@ Object oCarEntry is a dbView
 
     Object oCarsBrand is a dbForm
         Entry_Item Cars.Brand
-        Set Size to 13 126
+        Set Size to 13 85
         Set Location to 65 75
         Set peAnchors to anTopLeftRight
         Set Label to "Brand"
@@ -81,7 +81,7 @@ Object oCarEntry is a dbView
 
     Object oCarsType is a dbForm
         Entry_Item Cars.Type
-        Set Size to 13 186
+        Set Size to 13 150
         Set Location to 80 75
         Set peAnchors to anTopLeftRight
         Set Label to "Type"
@@ -92,7 +92,7 @@ Object oCarEntry is a dbView
 
     Object oCarsVintage is a dbForm
         Entry_Item Cars.Vintage
-        Set Size to 13 96
+        Set Size to 13 85
         Set Location to 95 75
         Set peAnchors to anTopLeftRight
         Set Label to "Vintage"
@@ -103,7 +103,7 @@ Object oCarEntry is a dbView
 
     Object oCarsLastServiceDate is a dbForm
         Entry_Item Cars.LastServiceDate
-        Set Size to 13 66
+        Set Size to 13 85
         Set Location to 110 75
         Set peAnchors to anTopLeftRight
         Set Label to "Last Service Date"
@@ -114,7 +114,7 @@ Object oCarEntry is a dbView
 
     Object oCarsMileage is a dbForm
         Entry_Item Cars.Mileage
-        Set Size to 13 54
+        Set Size to 13 85
         Set Location to 125 75
         Set peAnchors to anTopLeftRight
         Set Label to "Mileage"
@@ -125,7 +125,7 @@ Object oCarEntry is a dbView
 
     Object oCarsIsOccupied is a dbForm
         Entry_Item Cars.IsOccupied
-        Set Size to 13 36
+        Set Size to 13 85
         Set Location to 140 75
         Set peAnchors to anTopLeftRight
         Set Label to "Is Occupied"

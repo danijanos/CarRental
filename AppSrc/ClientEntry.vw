@@ -9,8 +9,8 @@ Use cClientsDataDictionary.dd
 
 ACTIVATE_VIEW Activate_oClientEntry FOR oClientEntry
 Object oClientEntry is a dbView
-    Set Location to 5 5
-    Set Size to 113 333
+    Set Location to 87 91
+    Set Size to 163 380
     Set Label to "Client Entry"
     Set Border_Style to Border_Thick
 
@@ -25,7 +25,7 @@ Object oClientEntry is a dbView
 
     Object oClientsClient_ID is a dbForm
         Entry_Item Clients.Client_ID
-        Set Size to 13 42
+        Set Size to 13 100
         Set Location to 5 78
         Set peAnchors to anTopLeftRight
         Set Label to "Client ID"
@@ -37,7 +37,7 @@ Object oClientEntry is a dbView
 
     Object oClientsFirstName is a dbForm
         Entry_Item Clients.FirstName
-        Set Size to 13 250
+        Set Size to 13 100
         Set Location to 20 78
         Set peAnchors to anTopLeftRight
         Set Label to "First Name"
@@ -48,7 +48,7 @@ Object oClientEntry is a dbView
 
     Object oClientsLastName is a dbForm
         Entry_Item Clients.LastName
-        Set Size to 13 250
+        Set Size to 13 100
         Set Location to 35 78
         Set peAnchors to anTopLeftRight
         Set Label to "Last Name"
@@ -59,7 +59,7 @@ Object oClientEntry is a dbView
 
     Object oClientsTaxNumber is a dbForm
         Entry_Item Clients.TaxNumber
-        Set Size to 13 126
+        Set Size to 13 100
         Set Location to 50 78
         Set peAnchors to anTopLeftRight
         Set Label to "Tax Number"
@@ -81,7 +81,7 @@ Object oClientEntry is a dbView
 
     Object oClientsPhoneNumber is a dbForm
         Entry_Item Clients.PhoneNumber
-        Set Size to 13 96
+        Set Size to 13 126
         Set Location to 80 78
         Set peAnchors to anTopLeftRight
         Set Label to "Phone Number"
