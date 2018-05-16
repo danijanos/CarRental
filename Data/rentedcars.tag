@@ -1,6 +1,6 @@
 RentedCars_ID
+RentalCards_ID
 Car_ID
-Fueling_ID
 StartOfRentDate
 EndOfRentDate
 MileageBefore
