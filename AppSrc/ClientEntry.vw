@@ -9,7 +9,7 @@ Use cClientsDataDictionary.dd
 
 ACTIVATE_VIEW Activate_oClientEntry FOR oClientEntry
 Object oClientEntry is a dbView
-    Set Location to 87 91
+    Set Location to 74 96
     Set Size to 163 380
     Set Label to "Client Entry"
     Set Border_Style to Border_Thick

@@ -14,8 +14,8 @@ Use cRentedCarsDataDictionary.dd
 
 ACTIVATE_VIEW Activate_oCardEntry FOR oCardEntry
 Object oCardEntry is a dbView
-    Set Location to 5 5
-    Set Size to 174 610
+    Set Location to 70 18
+    Set Size to 203 623
     Set Label To "CardEntry"
     Set Border_Style to Border_Thick
 
@@ -45,7 +45,7 @@ Object oCardEntry is a dbView
 
     Object oRentalCardsCard_ID is a dbForm
         Entry_Item RentalCards.Card_ID
-        Set Size to 13 42
+        Set Size to 13 55
         Set Location to 5 68
         Set peAnchors to anTopLeftRight
         Set Label to "Card ID"
@@ -57,7 +57,7 @@ Object oCardEntry is a dbView
 
     Object oClientsClient_ID is a dbForm
         Entry_Item Clients.Client_ID
-        Set Size to 13 42
+        Set Size to 13 55
         Set Location to 20 68
         Set peAnchors to anTopLeftRight
         Set Label to "Client ID"
@@ -68,7 +68,7 @@ Object oCardEntry is a dbView
 
     Object oClientsFirstName is a dbForm
         Entry_Item Clients.FirstName
-        Set Size to 13 250
+        Set Size to 13 263
         Set Location to 35 68
         Set peAnchors to anTopLeftRight
         Set Label to "First Name"
@@ -79,7 +79,7 @@ Object oCardEntry is a dbView
 
     Object oClientsLastName is a dbForm
         Entry_Item Clients.LastName
-        Set Size to 13 250
+        Set Size to 13 263
         Set Location to 50 68
         Set peAnchors to anTopLeftRight
         Set Label to "Last Name"
@@ -90,7 +90,7 @@ Object oCardEntry is a dbView
 
     Object oRentalCardsRecordDate is a dbForm
         Entry_Item RentalCards.RecordDate
-        Set Size to 13 66
+        Set Size to 13 79
         Set Location to 65 68
         Set peAnchors to anTopLeftRight
         Set Label to "Record Date"
@@ -101,7 +101,7 @@ Object oCardEntry is a dbView
 
     Object oRentalCardsResponsiblePerson is a dbForm
         Entry_Item RentalCards.ResponsiblePerson
-        Set Size to 13 250
+        Set Size to 13 263
         Set Location to 80 68
         Set peAnchors to anTopLeftRight
         Set Label to "Responsible Person"
@@ -111,7 +111,7 @@ Object oCardEntry is a dbView
     End_Object 
 
     Object oDetailGrid is a cDbCJGrid
-        Set Size to 66 600
+        Set Size to 95 613
         Set Location to 103 5
         Set Server to oRentedCars_DD
         Set Ordering to 3
@@ -122,68 +122,68 @@ Object oCardEntry is a dbView
 
         Object oRentedCars_RentedCars_ID is a cDbCJGridColumn
             Entry_Item RentedCars.RentedCars_ID
-            Set piWidth to 114
+            Set piWidth to 76
             Set psCaption to "Rented Cars ID"
             Set pbFocusable to False
         End_Object 
 
         Object oRentalCards_Card_ID is a cDbCJGridColumn
             Entry_Item RentalCards.Card_ID
-            Set piWidth to 118
+            Set piWidth to 79
             Set psCaption to "Rental Cards ID"
         End_Object 
 
         Object oCars_Car_ID is a cDbCJGridColumn
             Entry_Item Cars.Car_ID
-            Set piWidth to 72
+            Set piWidth to 48
             Set psCaption to "Car ID"
         End_Object 
 
         Object oRentedCars_StartOfRentDate is a cDbCJGridColumn
             Entry_Item RentedCars.StartOfRentDate
-            Set piWidth to 128
+            Set piWidth to 86
             Set psCaption to "Start Of Rent Date"
         End_Object 
 
         Object oRentedCars_EndOfRentDate is a cDbCJGridColumn
             Entry_Item RentedCars.EndOfRentDate
-            Set piWidth to 122
+            Set piWidth to 82
             Set psCaption to "End Of Rent Date"
         End_Object 
 
         Object oRentedCars_MileageBefore is a cDbCJGridColumn
             Entry_Item RentedCars.MileageBefore
-            Set piWidth to 118
+            Set piWidth to 79
             Set psCaption to "Mileage Before"
         End_Object 
 
         Object oRentedCars_MileageAfter is a cDbCJGridColumn
             Entry_Item RentedCars.MileageAfter
-            Set piWidth to 106
+            Set piWidth to 71
             Set psCaption to "Mileage After"
         End_Object 
 
         Object oRentedCars_StatusBefore is a cDbCJGridColumn
             Entry_Item RentedCars.StatusBefore
-            Set piWidth to 300
+            Set piWidth to 202
             Set psCaption to "Status Before"
         End_Object 
 
         Object oRentedCars_StatusAfter is a cDbCJGridColumn
             Entry_Item RentedCars.StatusAfter
-            Set piWidth to 300
+            Set piWidth to 202
             Set psCaption to "Status After"
         End_Object 
 
         Object oRentedCars_RefuelingVolume is a cDbCJGridColumn
             Entry_Item RentedCars.RefuelingVolume
-            Set piWidth to 132
+            Set piWidth to 89
             Set psCaption to "Refueling Volume"
         End_Object 
 
         Object oRentedCars_UnitPrice is a cDbCJGridColumn
             Entry_Item RentedCars.UnitPrice
-            Set piWidth to 84
+            Set piWidth to 58
             Set psCaption to "Unit Price"
         End_Object 
 
