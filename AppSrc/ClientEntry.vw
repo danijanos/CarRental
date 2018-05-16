@@ -81,7 +81,7 @@ Object oClientEntry is a dbView
 
     Object oClientsPhoneNumber is a dbForm
         Entry_Item Clients.PhoneNumber
-        Set Size to 13 100
+        Set Size to 13 126
         Set Location to 80 78
         Set peAnchors to anTopLeftRight
         Set Label to "Phone Number"
