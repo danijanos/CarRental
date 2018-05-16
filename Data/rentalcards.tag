@@ -1,0 +1,5 @@
+Card_ID
+Client_ID
+RentedCars_ID
+RecordDate
+ResponsiblePerson

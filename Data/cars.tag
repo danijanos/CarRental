@@ -1,0 +1,10 @@
+Car_ID
+LicensePlateNumber
+VIN
+MotorNumber
+Brand
+Type
+Vintage
+LastServiceDate
+Mileage
+IsOccupied
