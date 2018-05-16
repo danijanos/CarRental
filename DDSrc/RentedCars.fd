@@ -1,8 +1,8 @@
 #REPLACE FILE5 RentedCars
 #REPLACE RentedCars.Recnum |FN5,0
 #REPLACE RentedCars.RentedCars_ID |FN5,1
-#REPLACE RentedCars.Car_ID |FN5,2
-#REPLACE RentedCars.Fueling_ID |FN5,3
+#REPLACE RentedCars.RentalCards_ID |FN5,2
+#REPLACE RentedCars.Car_ID |FN5,3
 #REPLACE RentedCars.StartOfRentDate |FD5,4
 #REPLACE RentedCars.EndOfRentDate |FD5,5
 #REPLACE RentedCars.MileageBefore |FN5,6

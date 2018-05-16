@@ -2,7 +2,6 @@ Use DataDict.pkg
 
 Open RentedCars
 Open RentalCards
-Open Fueling
 Open Cars
 Open CarRental_System
 
@@ -14,10 +13,8 @@ Class cRentedCarsDataDictionary is a DataDictionary
 
         Set Add_System_File to CarRental_System.File_Number DD_Lock_On_All
 
-        Set Add_Server_File to Fueling.File_Number
         Set Add_Server_File to Cars.File_Number
-
-        Set Add_Client_File to RentalCards.File_Number
+        Set Add_Server_File to RentalCards.File_Number
 
         Set Foreign_Field_Option DD_KEYFIELD DD_NOPUT to True
         Set Foreign_Field_Option DD_KEYFIELD DD_FINDREQ to True
@@ -31,9 +28,10 @@ Class cRentedCarsDataDictionary is a DataDictionary
         Set Key_Field_State Field RentedCars.Car_ID to True
         Set Field_Option Field RentedCars.Car_ID DD_REQUIRED to True
 
-        Set Key_Field_State Field RentedCars.Fueling_ID to True
-
         Set Field_Option Field RentedCars.StartOfRentDate DD_REQUIRED to True
+        Set Field_Value_Range Field RentedCars.StartOfRentDate to 01/01/2016 12/31/2017
+
+        Set Field_Value_Range Field RentedCars.EndOfRentDate to 01/01/2016 12/31/2017
 
         Set Field_Option Field RentedCars.MileageBefore DD_REQUIRED to True
 
